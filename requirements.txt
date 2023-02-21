@@ -9,3 +9,4 @@ notebook==6.5.2
 imagecodecs==2023.1.23
 zarr==2.14.1
 jupyterlab==3.6.1
+graphviz==0.20.1
