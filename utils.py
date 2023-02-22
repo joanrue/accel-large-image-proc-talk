@@ -127,3 +127,12 @@ def chunk_image(image, chunk_size, output_dir):
             os.path.join(output_dir, f"image-{string}.png"), (image[slices] * 255).astype(np.uint8),
             check_contrast=False
         )
+
+def list_files(startpath, max_len=10):
+    for root, dirs, files in os.walk(startpath):
+        level = root.replace(startpath, '').count(os.sep)
+        indent = ' ' * 4 * (level)
+        print(f'{indent}{os.path.basename(root)}/')
+        subindent = ' ' * 4 * (level + 1)
+        for f in files[:max_len]:
+            print(f'{subindent}{f} {os.path.getsize(os.path.join(root, f)) * 1e-3 : 0.2f} Kb')
