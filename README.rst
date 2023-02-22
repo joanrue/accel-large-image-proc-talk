@@ -7,12 +7,13 @@ Matthieu Simeoni, Sepand Kashani, Thomas Debarre, Daniele Hamm and Salim Najib.
 
 Content
 -------
-- Presentations: introductory slides 
-- Notebook 0: Data preparation. Downloads Hubble space telescope data and chunks it into small images.
-- Notebook 1: Introduction to Numba and JIT compilation.
-- Notebook 2: Introduction to Dask and the dashboard.
-- Notebook 3: Introduciton to Dask-image and example of large-scale image processing.
-- Notebook 4: Application of Dask + Numba: the structure tensor for feature extraction. 
+- `Presentation <https://github.com/joanrue/accel-large-image-proc-talk/blob/main/presentation.ipynb>`_: Slides.
+
+- `Notebook 0 <https://github.com/joanrue/accel-large-image-proc-talk/blob/main/0-Data-preparation.ipynb>`_: Data preparation. Downloads Hubble space telescope data and chunks it into small images.
+- `Notebook 1 <https://github.com/joanrue/accel-large-image-proc-talk/blob/main/1-Introduction-to-Numba.ipynb>`_: Introduction to Numba and JIT compilation.
+- `Notebook 2 <https://github.com/joanrue/accel-large-image-proc-talk/blob/main/2-Introduction-to-Dask.ipynb>`_: Introduction to Dask and the dashboard.
+- `Notebook 3 <https://github.com/joanrue/accel-large-image-proc-talk/blob/main/3-Introduction-to-Dask-Image.ipynb>`_: Introduciton to Dask-image and example of large-scale image processing.
+- `Notebook 4 <https://github.com/joanrue/accel-large-image-proc-talk/blob/main/4-Application-Dask-Numba.ipynb>`_: Application of Dask + Numba: the structure tensor for feature extraction. 
 
 Note
 ----
