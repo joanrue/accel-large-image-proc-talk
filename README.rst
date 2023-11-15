@@ -27,5 +27,7 @@ Before starting, please clone this repository and install depenencies as follows
    $ conda create -n accel_env python=3.11
    $ conda activate accel_env
    $ pip install jupyter
-   $ conda install matplotlib scipy numba scikit-image dask distributed dask-image -c conda-forge
+   $ pip install graphviz
+   $ conda install matplotlib scipy numba scikit-image dask distributed dask-image nodejs zarr -c conda-forge
+   $ pip install dask-labextension
    $ jupyter-lab
