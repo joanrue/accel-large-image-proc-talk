@@ -24,5 +24,8 @@ Before starting, please clone this repository and install depenencies as follows
 
    $ git clone https://github.com/joanrue/accel-large-image-proc-talk
    $ cd accel-large-image-proc-talk/
-   $ pip install -r requirements.txt
-
+   $ conda create -n accel_env python=3.11
+   $ conda activate accel_env
+   $ pip install jupyter
+   $ conda install matplotlib scipy numba scikit-image dask distributed dask-image -c conda-forge
+   $ jupyter-lab
